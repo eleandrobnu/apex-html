@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Exemplo tag progress</title>
+
+
+
+* <a> elementos com um atributo de título  */
+        a[title] {
+          color: purple;
+        }
+        
+        /* <a> elementos combinando com um href "https://example.org" */
+        a[href="https://example.org"] {
+          color: green;
+        }
+        
+        /* <a> elementos com um href contendo "example" */
+        a[href*="example"] {
+          font-size: 2em;
+        }
+        
+        /* <a> elementos com href terminando em ".org" */
+        a[href$=".org"] {
+          font-style: italic;
+        }
