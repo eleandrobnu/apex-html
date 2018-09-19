@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: #f1f1f1;
+}
+.painel1{
+    background-color:rgb(77, 190, 134);
+    color:#fff;
+    width:400px;
+    height:100vh;
+    position:relative;
+    margin:0;
+    padding-top:20px;
+    float:left;
+
+}
+.main{
+    margin:o;
+}
+
+.title{
+  margin-bottom:20px;
+font-family:'roboto',sans-serif;
+width:100%;
+text-align:center;
+fonte-size:42px;
+
+}
+.painel1 h3 {
+    width:100%;
+    text-align:center;
+    font-size:28px;
+    font-family:"roboto";
+
+}
+.painel1 h3:first-of-type{
+    margin-bottom:40px;
+
+}
+
+.painel1 .image-container{
+    width:200px;
+    margin:20px auto;
+
+}
+.painel1 .image-container img{
+    width:100%;
+}
+.painel2{
+    width:900px;
+    float:left;
+    background-color: #f1f1f1
+}
+.card{
+    width:95%;
+    margin:10px auto;
+    border:1px solid rgb(77, 190, 134);;
+    border-radius:5px;
+    padding:15px;
+    background-color: #fff;
+    box-shadow:blue;    
+}
+.card header{
+    font-size:20px;
+    font-weight:bold;
+    font-family:"roboto",sans-serif;
+    margin-bottom:10px;
+}
+
+.card section{
+    font-size:20px;
+    font-weight:bold;
+    font-family:"montserrat",sans-serif;
+    margin-bottom:10px;
+    color:#777;
+}
+.card footer{
+    width:100%;
+    text-align:right;
+    color:rgb(77, 190, 134);;
+    
+
+
+}
