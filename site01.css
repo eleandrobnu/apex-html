@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color:blue;
+.start{
+
+    background-image: url('https://acontecendoaqui.com.br/sites/default/files/styles/full_content/public/fotografia_de_pessoas_na_rua.jpg?itok=p7EocOR_');
+    width:100%;
+    min-height:600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top:200px;
+
+}
+.start:before{
+    content:" ";
+    display:block;
+    position:absolute;
+    top:0;
+    width:100%;
+    min-height:600px;
+    background-color: #000;
+    opacity:0.55;
+    z-index: 1;
+}
+.start h1,
+.start p{
+    text-align:center;
+    font-family: 'Scope One', serif;
+    color:#fff;
+
+}
+.start .interna{
+    position:relative;
+    z-index: 2;
+}
+.start h1{
+    font-size:55px;
+    
+    
+}
+.start p{
+    font-size:27px;
+    line-reight:1.7;
+
+}
+a.btn-action{
+    color:#fff;
+    text-decoration:none;
+    
+    margin-top:10px;
+    padding:10px 15px;
+    display:inline-block;
+    background-color: #3498db;
+    border-radius:5px;
+    font-weight:bold;
+}
